@@ -3,6 +3,7 @@ package handlers
 import (
 	"net/http"
 
+	"github.com/Adilfarooque/Footsgo_Ecommerce/usecase"
 	"github.com/Adilfarooque/Footsgo_Ecommerce/utils/models"
 	"github.com/Adilfarooque/Footsgo_Ecommerce/utils/response"
 	"github.com/gin-gonic/gin"

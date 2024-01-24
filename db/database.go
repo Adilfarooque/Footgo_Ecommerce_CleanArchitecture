@@ -21,3 +21,4 @@ func ConnectDatabase(config config.Config) (*gorm.DB, error) {
 	db.AutoMigrate(&domain.User{})
 	return DB, err
 }
+
