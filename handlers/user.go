@@ -34,7 +34,7 @@ func UserSignup(c *gin.Context) {
 		c.JSON(http.StatusBadRequest, errs)
 		return
 	}
-	//User signup process
+	//Users signup process
 	user, err := usecase.UsersSignUp(SignupDetail)
 	if err != nil {
 		errs := response.ClientResponse(http.StatusBadRequest, "Details not in correct format", nil, err.Error())
